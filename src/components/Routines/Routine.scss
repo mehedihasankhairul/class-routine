@@ -1,0 +1,45 @@
+.routinePage {
+  background: rgb(243, 243, 243);
+
+  .routinePage__container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    .routine-class {
+      justify-content: center;
+      align-items: center;
+    }
+    .routine-class button {
+      width: 80px;
+      color: #fff;
+      background: rgb(25, 126, 194);
+      border: 1px solid rgb(243, 243, 243);
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 15px;
+      margin: 5px;
+    }
+    .routine-class button:hover {
+      background: rgb(1, 81, 134);
+      color: #fff;
+    }
+    .routine-class button:active {
+      background: rgb(2, 117, 50);
+      color: #fff;
+    }
+  }
+  // table {
+  //   display: block;
+  //   overflow-x: auto;
+  //   white-space: nowrap;
+  // }
+
+  // table tbody  {
+  //   display: table;
+  //   width: 100%;
+  // }
+
+}
